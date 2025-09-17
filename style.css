@@ -1,3 +1,19 @@
+header {
+    transform: skewX(-30deg);
+    background: #34495e;
+    color: white;
+    padding-inline: 2rem;
+
+}
+h1 {
+    transform: skewX(30deg);
+    animation: wiggle 1s ease-in-out infinite alternate;
+}
+@keyframes wiggle {
+    0% { transform: skewX(45deg)}
+    100% { transform: skewX(0deg)}
+}
+
 .container {
     border: 1px solid black;
     display:flex;
